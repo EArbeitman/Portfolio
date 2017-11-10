@@ -1,0 +1,57 @@
+p{
+  font-size: 16px;
+  color:white;
+}
+
+.container{
+    color: white;
+}
+
+#headshot {
+  float: left;
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+body  {
+    background-image: url("../images/backdrop.jpg");
+}
+
+.parallax {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.programExperience{
+    background-image: url("../images/coding.png");
+}
+
+.workExperience{
+  background-image: url("../images/work.jpeg");
+}
+
+.portfolioBlurb{
+  height: 600px;
+  font-size:20px;
+
+
+}
+
+/*.portfolioHeader h1{
+  color: white;
+}*/
+
+
+
+
+
+
