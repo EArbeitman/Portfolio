@@ -39,11 +39,16 @@ body  {
   background-image: url("../images/work.jpeg");
 }
 
+/*.cardEffect{
+  opacity: 0;
+}
+*/
 .portfolioBlurb{
-  height: 600px;
-  font-size:20px;
+  margin:20px;
+}
 
-
+.jobTitle{
+  text-decoration: underline;
 }
 
 /*.portfolioHeader h1{
