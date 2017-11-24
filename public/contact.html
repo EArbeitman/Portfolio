@@ -38,7 +38,60 @@
 
     <body>
 
-      <h1> contact </h1>
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+            <form class="contact-form">
+              <h1> Message Me</h1>
+              <hr class="contact-hr"/>
+                <div class="form-group">
+                  <label class="col-form-label col-form-label-sm" for="inputSmall">Name</label>
+                  <input class="form-control form-control-sm" type="text" id="inputSmall">
+                </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea">Message</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+              </div>
+              <button class="submit-btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-4">
+
+            <!-- Start of Connect With Me Area -->
+            <section id="connect-with-me-area">
+              <div class="connect-with-me-content">
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                  <div class = "row">
+                    <div class = "col-sm-4">
+                    <a href = "https://github.com/EArbeitman" target="_blank">
+                      <img src="../images/github.png" alt="" class="connect-with-me-photo">
+                    </a>
+                  </div>
+                  <div class = "col-sm-4">
+                    <a href = "https://www.linkedin.com/in/evan-arbeitman-4300708a/" target="_blank">
+                      <img src="../images/linkedin.png" alt="" class="connect-with-me-photo">
+                    </a>
+                  </div>
+                  <div class = "col-sm-4">
+                    <a href = "https://stackoverflow.com/users/story/4709902" target="_blank">
+                      <img src="../images/stackover2.png" alt="" class="connect-with-me-photo">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- End of the Connect With Me Area -->
+          </div>
+        </section>
+      </div>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
